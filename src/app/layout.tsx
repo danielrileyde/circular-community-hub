@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Unbounded } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const unbounded = Unbounded({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Circular Community Hub",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={unbounded.className}>{children}</body>
     </html>
   );
 }
