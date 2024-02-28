@@ -18,3 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  background-color: blue;
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
