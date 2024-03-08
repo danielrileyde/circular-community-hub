@@ -4,7 +4,7 @@ import styles from "../components/Header.module.css";
 export default function Header() {
   return (
     <header className="header">
-      <h2>Circular Community Hub</h2>
+      <h2 className="logoName">Circular Community Hub</h2>
       <nav className="nav">
         <ul>
           <li>
